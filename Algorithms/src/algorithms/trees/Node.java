@@ -2,6 +2,7 @@ package algorithms.trees;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
+import java.util.Stack;
 
 /**
  * @author Oleksandr Shynkariuk oleksandr.shynkariuk@gmail.com
@@ -157,5 +158,74 @@ public class Node {
             int val = 1 + Math.max(getHeight(node.left), getHeight(node.right));
             return val;
         }
+    }
+
+    /**
+     * Given a Binary Tree and a key, write a function that prints all the ancestors of the key in the given binary tree.
+     * */
+    public static boolean printAncestorsRec(Node node, int data){
+        if(node == null)
+            return false;
+        if(node.data() == data)
+            return true;
+        if(printAncestorsRec(node.left(), data) || printAncestorsRec(node.right(), data)) {
+            System.out.print(node.data() + " ");
+            return true;
+        }
+        return false;
+    }
+
+    public static void printAncestors(Node node, int data){
+        if(node == null)
+            return;
+        Stack<Node> stack = new Stack<Node>(); //stack for holding the ancestors
+
+        // Traverse the complete tree in post-order way till we find the key
+        while(true){
+            // Traverse the left side. While traversing, push the nodes into
+            // the stack so that their right subtrees can be traversed later
+            if(node != null)
+                System.out.println("Node here: " + node.data());
+            else
+                System.out.println("Node here is null");
+            while(node != null && node.data() != data){
+                stack.push(node);         // push current node
+                node = node.left();       //move to net node
+                print(stack);
+            }
+
+            // If the node whose ancestors are to be printed is found,
+            // then break the while loop.
+            if(node != null && node.data() == data)
+                break;
+
+            // Check if right sub-tree exists for the node at top
+            // If not then pop that node because we don't need this
+            // node any more.
+            if(stack.peek().right() == null){
+                node = stack.pop();
+
+                // If the popped node is right child of top, then remove the top
+                // as well. Left child of the top must have processed before.
+                if(!stack.empty() && stack.peek().right() == node)
+                    node = stack.pop();
+            }
+
+            // if stack is not empty then simply set the root as right child
+            // of top and start traversing right sub-tree.
+            if(stack.empty())
+                node = null;
+            else
+                node = stack.peek().right();
+        }
+
+        print(stack);
+    }
+
+    private static void print(Stack<Node> stack){
+        for(Node node : stack){
+            System.out.print(node.data() + " ");
+        }
+        System.out.println();
     }
 }

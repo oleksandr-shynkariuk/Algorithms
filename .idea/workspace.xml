@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4341037b-b64b-47dd-afc4-89fc2bf6da9d" name="Default" comment="" />
+    <list default="true" id="4341037b-b64b-47dd-afc4-89fc2bf6da9d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/src/algorithms/trees/Main.java" afterPath="$PROJECT_DIR$/Algorithms/src/algorithms/trees/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/src/algorithms/trees/Node.java" afterPath="$PROJECT_DIR$/Algorithms/src/algorithms/trees/Node.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Algorithms.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/AllKLength.java" changelist="4341037b-b64b-47dd-afc4-89fc2bf6da9d" time="1377157255379" ignored="false" />
     <file path="/PrintAllBrackets.java" changelist="4341037b-b64b-47dd-afc4-89fc2bf6da9d" time="1377158110981" ignored="false" />
     <file path="/AllSubsetsOfSet.java" changelist="4341037b-b64b-47dd-afc4-89fc2bf6da9d" time="1377162627882" ignored="false" />
     <file path="/DurstenfeldShuffle.java" changelist="4341037b-b64b-47dd-afc4-89fc2bf6da9d" time="1377248190087" ignored="false" />
-    <file path="/Node.java" changelist="4341037b-b64b-47dd-afc4-89fc2bf6da9d" time="1377375369812" ignored="false" />
-    <file path="/Main.java" changelist="4341037b-b64b-47dd-afc4-89fc2bf6da9d" time="1377286268263" ignored="false" />
+    <file path="/Node.java" changelist="4341037b-b64b-47dd-afc4-89fc2bf6da9d" time="1377875102007" ignored="false" />
+    <file path="/Main.java" changelist="4341037b-b64b-47dd-afc4-89fc2bf6da9d" time="1377868803784" ignored="false" />
     <file path="/AllPermutations.java" changelist="4341037b-b64b-47dd-afc4-89fc2bf6da9d" time="1377377990471" ignored="false" />
     <file path="/AllSubstrings.java" changelist="4341037b-b64b-47dd-afc4-89fc2bf6da9d" time="1377426931686" ignored="false" />
     <file path="/Knapsack.java" changelist="4341037b-b64b-47dd-afc4-89fc2bf6da9d" time="1377433467853" ignored="false" />
+    <file path="/Dummy.txt" changelist="4341037b-b64b-47dd-afc4-89fc2bf6da9d" time="1377867735018" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +34,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -61,7 +69,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -116,10 +123,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Knapsack.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Knapsack.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms/src/algorithms/dynamic_programming/Knapsack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="25" selection-start="933" selection-end="933" vertical-scroll-proportion="0.60993975">
+            <state line="19" column="83" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,8 +135,19 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms/src/algorithms/trees/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="78" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+            <state line="44" column="34" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms/src/algorithms/trees/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="209" column="31" selection-start="6576" selection-end="6582" vertical-scroll-proportion="0.55536026">
+              <folding>
+                <element signature="e#5266#5272#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,6 +168,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -158,11 +184,11 @@
         <option value="$PROJECT_DIR$/Algorithms/src/algorithms/recursion/AllKLength.java" />
         <option value="$PROJECT_DIR$/Algorithms/src/algorithms/recursion/AllSubsetsOfSet.java" />
         <option value="$PROJECT_DIR$/Algorithms/src/algorithms/arrays/DurstenfeldShuffle.java" />
-        <option value="$PROJECT_DIR$/Algorithms/src/algorithms/trees/Main.java" />
-        <option value="$PROJECT_DIR$/Algorithms/src/algorithms/trees/Node.java" />
         <option value="$PROJECT_DIR$/Algorithms/src/algorithms/strings/AllPermutations.java" />
         <option value="$PROJECT_DIR$/Algorithms/src/algorithms/strings/AllSubstrings.java" />
         <option value="$PROJECT_DIR$/Algorithms/src/algorithms/dynamic_programming/Knapsack.java" />
+        <option value="$PROJECT_DIR$/Algorithms/src/algorithms/trees/Node.java" />
+        <option value="$PROJECT_DIR$/Algorithms/src/algorithms/trees/Main.java" />
       </list>
     </option>
   </component>
@@ -170,7 +196,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -196,8 +222,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -342,12 +366,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Acube" />
@@ -357,9 +385,11 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.AllSubstrings">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="DurstenfeldShuffle" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.arrays.DurstenfeldShuffle" />
       <option name="VM_PARAMETERS" />
@@ -454,19 +484,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -492,6 +509,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -537,10 +567,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AllSubstrings" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Knapsack" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AllPermutations" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AllSubstrings" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Knapsack" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AllPermutations" />
         <item index="4" class="java.lang.String" itemvalue="Application.DurstenfeldShuffle" />
       </list>
     </recent_temporary>
@@ -550,6 +580,25 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4341037b-b64b-47dd-afc4-89fc2bf6da9d" name="Default" comment="" />
@@ -569,14 +618,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1420373" sideWeight="0.81030446" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18969555" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1420373" sideWeight="0.7259953" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2740047" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -714,20 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/src/algorithms/trees/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="78" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/src/algorithms/trees/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="65" selection-start="3704" selection-end="3704" vertical-scroll-proportion="1.3042122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/src/algorithms/recursion/PrintAllBrackets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="20" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
@@ -751,8 +786,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/src/algorithms/dynamic_programming/Knapsack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="25" selection-start="933" selection-end="933" vertical-scroll-proportion="0.60993975">
+        <state line="19" column="83" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/src/algorithms/trees/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="34" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/src/algorithms/trees/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="209" column="31" selection-start="6576" selection-end="6582" vertical-scroll-proportion="0.55536026">
+          <folding>
+            <element signature="e#5266#5272#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

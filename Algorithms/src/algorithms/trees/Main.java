@@ -40,5 +40,8 @@ public class Main {
 
         System.out.println("\nLevel-order in O(n^2):");
         Node.levelOrderRec(one);
+
+        System.out.println("\nAncestors of 6:");
+        Node.printAncestors(one, 7);
     }
 }
