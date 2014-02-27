@@ -1,4 +1,4 @@
 Algorithms
 ==========
 
-Algorithms implementations
+Some algorithms implementations
